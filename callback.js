@@ -1,6 +1,7 @@
 let browser="chrome";
 function checkBrowserVersion(callback)
 {
+    console.log("Running.......");
     setTimeout(()=>
     {
         callback(browser)
